@@ -100,7 +100,6 @@ main .jumbotron .content-jumbotron{
   background-color: aqua;
   padding: 160px;
   text-align: center;
-  line-height: 300px;
   border: 1px solid black;
 }
 
@@ -115,4 +114,35 @@ section .section-row-img, .section-row-text{
   height: 300px;
   background-color: lightblue;
   border: 1px solid black;
+}
+.content-section-row-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-section-row-2, .img-section-row-2, .section-img-bottom, .button-download{
+  border: 1px solid black;
+}
+
+
+.content-section-row-2 .text-section-row-2{
+  width: 400px;
+  height: 50px;
+  background-color: chartreuse;
+}
+.content-section-row-2 .img-section-row-2{
+  width: 400px;
+  height: 50px;
+  background-color: pink;
+}
+.content-section-row-2 .section-img-bottom{
+  width: 150px;
+  height: 50px;
+  background-color: yellow;
+}
+.content-section-row-2 .button-download{
+  width: 100px;
+  height: 50px;
+  background-color: rgb(239, 156, 13);
 }
