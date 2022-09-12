@@ -93,3 +93,23 @@ main .jumbotron .content-jumbotron{
   background-color: brown;
   border: 1px solid black;
 }
+
+.first-section{
+  background-color: aqua;
+  padding: 160px;
+  text-align: center;
+  line-height: 300px;
+}
+
+.first-section .content-first-section{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+section .first-section-img, .first-section-text{
+  width: 47%;
+  height: 300px;
+  background-color: lightblue;
+  border: 1px solid black;
+}
