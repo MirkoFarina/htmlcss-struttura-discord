@@ -10,6 +10,8 @@
   max-width: 1180px;
   width: 80%;
   margin: 0 auto;
+  background-color: beige;
+  padding: 10px;
 }
 
 
@@ -94,20 +96,21 @@ main .jumbotron .content-jumbotron{
   border: 1px solid black;
 }
 
-.first-section{
+.section-row{
   background-color: aqua;
   padding: 160px;
   text-align: center;
   line-height: 300px;
+  border: 1px solid black;
 }
 
-.first-section .content-first-section{
+.section-row .content-section-row{
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
 
-section .first-section-img, .first-section-text{
+section .section-row-img, .section-row-text{
   width: 47%;
   height: 300px;
   background-color: lightblue;
