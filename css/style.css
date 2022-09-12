@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* tutte le altezze inserite per creare il layout dovranno essere tolte (tranne quelle fisse es. header */
+
 .container{
   max-width: 1180px;
   width: 80%;
@@ -19,6 +21,7 @@ header{
   color: white;
   text-align: center;
   line-height: 50px;
+  border: 1px solid black;
 }
   
 
@@ -29,19 +32,64 @@ header .content-header{
 
 header .logo{
   width: 50px;
-  height: 50px;  /* da togliere */ 
+  height: 50px;   
   background-color: blue;
 }
 
 header .menu{
   width: 200px;
-  height: 50px;  /* da togliere */ 
+  height: 50px;  
   background-color: green;
 }
 
 header .button-accedi{
   width: 50px;
-  height: 50px;  /* da togliere */ 
+  height: 50px;  
   background-color: greenyellow;
   color: black;
+}
+
+
+main .jumbotron{
+  height: 550px;
+  background-color: red;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+  
+
+
+main .jumbotron .content-jumbotron{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 330px;
+  background-color: blueviolet;
+}
+
+.content-jumbotron .text-jumbotron{
+  width: 700px;
+  height: 250px;
+  background-color: black;
+  
+}
+
+.content-jumbotron .button-jumbotron{
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+  
+
+.content-jumbotron .button-jumbotron-1, .button-jumbotron-2{
+  width: 150px;
+  height: 50px;
+  background-color: brown;
+  border: 1px solid black;
 }
