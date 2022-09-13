@@ -70,7 +70,7 @@ main .jumbotron .content-jumbotron{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 800px;
+  max-width: 800px;
   height: 330px;
   background-color: blueviolet;
 }
@@ -153,27 +153,25 @@ footer{
   text-align: center;
 }
 
+
+
+
 footer .footer-top{
   display: flex;
-  gap: 140px;
-}
-
-footer .footer-top .footer-top-left{
-  background-color: darkgreen;
-  padding: 10px;
-}
-
-footer .footer-top .footer-top-right{
-  display: flex;
-  gap: 90px;
   background-color: cornflowerblue;
   padding: 10px;
   flex-wrap: wrap;
 }
 
+footer .column-social{
+  width: calc(100% / 3);
+  height: 200px;
+  background-color: cyan;
+  border: 1px solid black;
+}
 
 footer .column-footer{
-  width: 80px;
+  width: calc(100% / 6);
   height: 200px;
   background-color: cyan;
   border: 1px solid black;
